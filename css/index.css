@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Inika&family=Jomolhari&family=Joti+One&family=Kaisei+Tokumin:wght@500&display=swap');
+
+/* Establishing fonts throughout website */
+:root {
+    font-family: 'Kaisei Tokumin', serif;
+}
+.navbar {
+    font-family: 'Inika', serif;
+}
+h2, h1 {
+    font-family: 'Joti One', serif;
+}
+footer {
+    font-family: 'Jomolhari', serif;
+}
+
+
+:root {
+    padding: 0;
+    margin: 0;
+}
+body {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+.navbar {
+    display: flex;
+    position: fixed;
+    justify-content: space-around;
+    width: 100vw;
+    background-repeat: repeat;
+    background-color: #F8D042;
+    top: 0px;
+    left: 0px;
+    font-size: large;
+    text-align: center;
+    z-index: -1;
+    padding: 10px;;
+}
+.navbar::after {
+    background-repeat: repeat;
+    position: fixed;
+    background-image: url("../img/rockywall-pattern.png");
+    width: 100vw;
+    height: 40px;
+    z-index: 1;
+    top: 0px;
+    left: 0px;
+    mix-blend-mode: color-burn;
+}
+.navbut {
+    text-decoration: none;
+    background-color: #C29B64;
+    padding: 8px;
+    border-radius: 7px;
+}
+.welcome {
+    padding-top: 44px;
+}
