@@ -69,7 +69,7 @@ body {
     padding-right: 2%;
 }
 .navbut:hover {
-    color: #faf1cf;
+   background-color: #9d7d52;
 }
 .homebut {
     background-image: url(../img/Logo.png);
