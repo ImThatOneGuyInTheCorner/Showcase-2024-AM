@@ -14,49 +14,43 @@ footer {
     font-family: 'Jomolhari', serif;
 }
 
-
 :root {
     padding: 0;
     margin: 0;
 }
+*{
+    box-sizing: border-box;
+}
+
 body {
     position: relative;
     display: flex;
     flex-direction: column;
+    border: 0px;
+    margin: 0px;
 }
 .navbar {
+    height: 10vh;
     display: flex;
     position: fixed;
     justify-content: space-around;
-    width: 100vw;
+    width: 100%;
     background-repeat: repeat;
     background-color: rgb(255, 213, 150);
-    top: 0px;
-    left: 0px;
     font-size: large;
     text-align: center;
-    z-index: -1;
-    padding: 10px;
     border-width: 5px;
     border-color: #F8D042;
     border-style: solid;
-}
-.navbar {
-    background-repeat: repeat;
-    position: fixed;
     background-image: url(../img/StoneTexture.jpg);
-    width: 100vw;
-    height: 6%;
     z-index: 1;
-    top: 0px;
-    left: 0px;
     background-blend-mode:multiply;
+    align-items: center;
 }
 .navbut {
+    height: 6.5vh;
     text-decoration: none;
     background-color: #C29B64;
-    padding: 8px;
-    padding-top: 0px;
     border-radius: 7px;
     border-width: 5px;
     border-color: #F8D042;
@@ -65,22 +59,39 @@ body {
     font-size: 36px;
     color: white;
     z-index: 2;
-    padding-left: 2%;
-    padding-right: 2%;
+    width: 12vw;
 }
 .navbut:hover {
     background-color: #a58556;
 }
 .homebut {
     background-image: url(../img/Logo.png);
-    background-size: 96px;
-    width: 96px;
-    height: 96px;
+    background-size: 128px;
+    width: 128px;
+    height: 128px;
     position: relative;
-    top: 10%;
+    top: 40%;
     z-index: 2;
 }
+.dropdown {
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+}
 .main {
-    top: 44px;
+    top: 64px;
     position: relative;
+}
+.welcome {
+    background-image: url(../img/LogoLeaves.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 40em;
+}
+.arrow {
+    /* align-self: center; */
+    /* text-align: center; */
+    height: 32px;
+    width: 32px;
+    background: url('https://api.iconify.design/eva/arrow-up-fill.svg?color=white&flip=vertical') no-repeat center center / contain;
 }
