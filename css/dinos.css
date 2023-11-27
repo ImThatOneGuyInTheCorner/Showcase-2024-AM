@@ -1,8 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inika')
-
-.navbar {
-    font-family: 'Inika', serif;
-}
+@import url('https://fonts.googleapis.com/css2?family=Inika');
 
 :root {
     padding: 0;
@@ -14,6 +10,7 @@ body {
     flex-direction: column;
 }
 .navbar {
+    font-family: 'Inika', serif;
     display: flex;
     position: fixed;
     justify-content: space-around;
