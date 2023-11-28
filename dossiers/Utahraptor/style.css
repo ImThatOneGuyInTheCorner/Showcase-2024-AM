@@ -1,0 +1,233 @@
+* {
+    box-sizing: border-box;
+    margin: .5%;
+}
+
+body {
+    background-color: #E4E4E4;
+    font-family: 'Source Serif Pro';
+    font-weight: lighter;
+    color: #777777;
+}
+
+body time {
+    font-size: 20px;
+}
+
+/* extra classes */
+.img {
+    border: 5px solid #606060;
+    filter: drop-shadow(0px 0px 3px);
+}
+
+h1 {
+    font-size: 2.5em;
+}
+
+div {
+    margin: auto;
+    width: 40%;
+    height: 1px;
+    border: 1px solid;
+}
+
+h4 {
+    font-size: 2em;
+}
+
+.superp {
+    text-indent: 1em;
+    font-size: 1.5em
+}
+
+/* main-title */
+.main-title {
+    margin-top: 1%;
+    text-align: center;
+    font-size: 40px;
+}
+
+.main-title p {
+    font-size: .3em;
+    padding-left: 35%;
+}
+
+
+/* intro */
+.intro {
+    display: inline-flex;
+    justify-content: center;
+    gap: 2%;
+}
+
+/* generaltext */
+.intro-text {
+    flex-basis: 40%;
+}
+
+.intro-text h4 {
+    padding-top: 2em;
+}
+
+/* images */
+.intro-images {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: flex-end;
+    flex-basis: 25%;
+}
+
+.intro-images figure {
+    margin-bottom: 15%;
+}
+
+.intro-images figure:nth-child(1) {
+    width: 80%;
+}
+
+.intro-images figure:nth-child(2) {
+    width: 70%;
+}
+
+.intro-images figure:nth-child(3) {
+    width: 80%;
+}
+
+/* dinocard */
+.dinocard {
+    display: inline-flex;
+    flex-flow: column;
+    flex-basis: 25%;
+
+    filter: drop-shadow(0px 1px 5px);
+}
+
+.dinocard figure, .dinocard figure img {
+    margin: 0;
+}
+
+.dinocard h2 {
+    margin: 0;
+    background-color: #BFBFBF;
+    color: white;
+    text-align: center;
+    letter-spacing: .15em;
+    font-weight: lighter;
+    font-size: 2em;
+}
+
+.dinocard ul {
+    background-color: #969696;
+    color: #E4E4E4;
+    font-size: 1.5em;
+    margin: 0;
+    padding-top: .5em;
+    padding-bottom: .5em;
+}
+
+/* fds */
+.fds {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+.fds-imagerow {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    gap: 2%;
+}
+
+.fds-imagerow figure {
+    flex-basis: 30%;
+    height: 100%;
+}
+
+.fds-discovery {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 4%
+}
+
+.fds-discovery figure {
+    flex-basis: 40%;
+    height: 100%;
+}
+
+.fds-discovery section {
+    flex-basis: 50%;
+}
+
+.fds-discovery footer {
+    flex-basis: 23%;
+    margin-top: 6%;
+}
+
+/* life cycle, breeding, & habitat */
+.lcbh {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+.main {
+    display: flex;
+    flex-flow: column wrap;
+}
+.main section {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 5%
+}
+
+
+.main section figure {
+    flex-basis: 30%;
+}
+
+.main section footer {
+    flex-basis: 60%;
+}
+
+
+
+/* finally, sources */
+.sources {
+    margin: -1%;
+    background-color: #969696;
+    color: white;
+
+}
+
+.sources h1 {
+    padding-top: 1%;
+    padding-bottom: 1%;
+    text-align: center;
+}
+
+.sources ul {
+    display: flex;
+    flex-flow: column wrap;
+}
+
+/* scrollbar edits */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #E4E4E4;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #777777;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #606060;
+}

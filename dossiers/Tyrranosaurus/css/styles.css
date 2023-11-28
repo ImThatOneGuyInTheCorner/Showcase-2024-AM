@@ -1,0 +1,238 @@
+main {
+    display: flex;
+    flex-flow: row wrap;
+    width: 80%;
+    /* width: 80vh;
+    margin: 0 auto; */
+    margin: auto;
+    justify-content: space-between;
+    
+}
+
+header {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #e6f0e1;
+}
+
+header>section:nth-of-type(1) {
+    width: 100%;
+}
+
+body {
+    background-color: 	#e6f0e1;
+}
+main>section
+nav {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 110px;
+
+}
+
+ul.side-nav {
+    list-style-type: none;
+    padding: 3;
+    align-self: flex-end;
+}
+
+.side-nav a {
+    display: block;
+    padding: 1em;
+    background-color:  #8bbf8c;
+    margin-bottom: 3px;
+    text-align: center;
+}
+
+.Overview {
+    width: 80%;
+    font-size: 20px;
+}
+
+main>aside>table {
+    padding: 10px;
+}
+.classification {
+    background-color: #8bbf8c;
+    height: 271px;
+    flex-shrink: 0;
+    text-align: center;
+    
+}
+
+.table {
+    font-size: 20px;
+    background-color: #bbdfba;
+}
+
+.slide {
+    margin: 5px;
+    max-width: 1046px;
+
+}
+/* aside {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: flex-start;
+} */
+
+
+img {
+    max-width: 100%;
+    align-content: center;
+}
+
+details>summary {
+    padding: 4px;
+}
+
+details>summary {
+    padding: 10px;
+    full-width: 100%;
+    background-color: #8bbf8c;
+    box-shadow: 1px 1px 2px #aabda0;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+details {
+    justify-content: center;
+    border-style: inset;
+    border-width: 2px;
+    border-color: #d7ecd1;
+    border-radius: 4px;
+}
+
+details>p {
+    background-color:	#d7ecd1;
+    padding: 4px;
+    margin: 0;
+    box-shadow: 1px 1px 2px #8bbf8c;
+}
+.drop {
+    align-content: center;
+    width: 80%;
+}
+
+p {
+    font-size: 20px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.slideshow-container {
+    width: 978px;
+    /* overflow: scroll; */
+    position: relative;
+    box-shadow: 3px 5px 10px rgba(0,0,0,0.3);
+}
+
+.slides {
+    display: flex;
+    overflow-x: hidden; /* Hide the scroll bar beneath slides on non-touch devices */
+    scroll-snap-type: x mandatory; 
+    scroll-behavior: smooth;
+    -webkit-overflow-scrolling: touch;
+}
+
+.slides::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+}
+
+.slides::-webkit-scrollbar-thumb {
+    background: black;
+    border-radius: 10px;
+}
+
+.slides::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+.slides > section {
+    scroll-snap-align: start;
+    flex-shrink: 0;
+    width: 978px;
+    height: 500px;
+    border-radius: 10px;
+    background: #eee;
+    transform-origin: center center;
+    transform: scale(1);
+    transition: transform 0.5s;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 100px;
+    
+}
+
+.slideshow-container img {
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.slideshow-nav {
+  position: absolute;
+  z-index: 2;
+  bottom: 1rem;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+}
+
+.slideshow-nav > a {
+    display: inline-flex;
+    width: 1.5rem;
+    height: 1.5rem;
+    background: white;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20%;
+    margin: 0 0.25rem;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.3);
+}
+
+.slideshow-nav > a:hover {
+  background-color: aquamarine;
+}
+
+.slideshow-nav > a:focus {
+    background: #000;
+}
+
+.slides p {
+  z-index: 3;
+  color: white;
+  text-shadow: 0 2px 2px rgba(0,0,0,0.3);
+  font-size: 1.5rem;
+  background-color: rgba(0,0,0,.5);
+  color: #fff;
+  width: 90%;
+}
+/* Touch devices don't need button navigation */
+@supports (scroll-snap-type) {
+  .slideshow-nav {
+        display: none; /* Hide the nav buttons on touch devices */
+    }
+}
+@media only screen and (max-width:920px){
+    .header-image {
+        order: -1;
+    }
+    .nav-heading {
+        order: -2;
+    }
+}

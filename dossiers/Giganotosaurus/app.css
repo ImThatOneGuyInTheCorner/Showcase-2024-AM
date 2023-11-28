@@ -1,0 +1,176 @@
+* {
+    box-sizing: border-box;
+}
+
+h2 {
+    color: black;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+li {
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.align-left {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.align-right {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.Title_Top {
+    font-size: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+.Giganotosaurus {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.Title_Classification {
+    font-size: 50px;
+}
+
+.Table {
+    display: flex;
+    font-size: 40px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.Box_Text {
+    display: flex;
+    text-align: center;
+    flex-basis: 20%;
+    font-size: 20px;
+}
+
+.Map {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-grow: 0;
+    flex-shrink: 0;
+}
+
+.Map1 {
+    width: 60%;
+}
+
+.Map2 {
+    width: 40%;
+}
+
+.Discovery_Title {
+    font-size: 50px;
+}
+
+.Discovery_Description {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+    font-size: 30px;
+}
+
+.Fossil_Map {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Identification_Record {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+    font-size: 30px;
+}
+
+.Diet_Behavior_Title {
+    font-size: 80px;
+}
+
+.Diet {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 50px;
+    width: 50%
+}
+
+.Behavior_Adaptions {
+    display: flex;
+    flex-direction: column;
+    text-align: flex-start;
+    font-size: 50px;
+
+}
+
+.Breeding_Behaviors {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    text-align: flex-start;
+    font-size: 50px;
+}
+
+.Giganotosaurus_Jurassic {
+    width: 100%;
+    height: 100%;
+}
+
+.Giganotosaurus_Fossil {
+    width: 100%;
+    height: 100%;
+}
+
+.Communication_Life_Title {
+    font-size: 80px;
+}
+
+.Communication_Predators {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 50px;
+    width: 50%
+}
+
+.Giganotosaurus_2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 50px;
+    width: 50%
+}
+
+.Life_History_Cycle_Title {
+    text-align: center;
+    font-size: 50px;
+}
+
+.Life_History_Cycle_Text {
+    text-align: center;
+    font-size: 50px;
+}

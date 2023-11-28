@@ -1,0 +1,31 @@
+body {
+    display: flex;
+    flex-flow: column wrap;
+    position: absolute;
+}
+header {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+}
+main {
+    display: flex;
+    flex-direction: row;
+}
+.left {
+    align-self: flex-start;
+    width: 24%;
+    justify-content: space-around;
+}
+.center {
+    align-self: center;
+    width: 48%;
+    justify-content: space-around;
+}
+.right {
+    align-self: flex-end;
+    width: 24%;
+    justify-content: space-around;
+}

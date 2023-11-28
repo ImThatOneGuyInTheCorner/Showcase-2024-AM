@@ -1,0 +1,91 @@
+* {
+    box-sizing: border-box;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+.head {
+    display: flex;
+    flex-flow: column;
+}
+
+.sec1 {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+}
+
+.abtc1 {
+    width: 75%;
+    order: -1;
+}
+
+.tscomp1 {
+    width: 30%;
+
+}
+
+.cards {
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+
+}
+
+.sec3 {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.bhv-txt {
+    width: 50%;
+}
+
+.polysec {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.sec4 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 2em 0 2em;
+}
+
+.secfoss1 {
+    display: flex;
+    align-items: center;
+}
+
+.fos-txt {
+    align-self: flex-start;
+    width: 40%;
+}
+
+.fossils {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+}
+
+.fos-loc {
+    flex-basis: 50%;
+    width: 50%;
+}
+
+.footsrc {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footsrc section {
+    width: 23%;
+}

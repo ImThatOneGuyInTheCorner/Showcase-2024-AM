@@ -1,0 +1,149 @@
+body {
+ background: rgb(44, 52, 54);
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 4%;
+}
+h1{
+  text-align: center;
+  size: 24%;
+  color: rgb(234, 252, 252);
+}
+h2{
+  text-align: center;
+  color: rgba(255, 255, 255, 0.703);
+}
+figcaption{
+  color: white;
+  text-transform: uppercase;
+}
+p{
+  text-align: center;
+  text-transform: lowercase;
+  color: white;
+}
+div{
+  text-align: center;
+}
+a[href]{
+  color: rgba(207, 253, 68, 0.986);
+  text-transform: uppercase;
+}
+  
+.one-third {
+  width: 100%;
+  color: white;
+}
+
+.two {
+  width:100%;
+  
+}
+
+.three {
+  width: 100%;
+ 
+  
+}
+.four {
+  width: 100%;
+}
+.five{
+ 
+  width: 100%;
+  
+}
+.six{
+  
+  width: 100%;
+  
+}
+.half{
+  
+  
+}
+.seven{
+  width: 100%;
+ 
+}
+.eight{
+  width: 100%;
+  
+}  
+
+.nine{
+  width:100%;
+  
+}
+.ten{
+  width: 100%;
+  
+}
+.eleven{
+  width: 100%;
+  
+}
+.twelve{
+  width:100%;
+ 
+}
+.thirteen{
+  width: 100%;
+  
+ 
+}
+.fourteen{
+  width:100%;
+  
+  
+}
+.fifteen{
+  width: 100%;
+  
+  
+}
+
+  
+  /* .box1 {
+    width: 100%;
+    height: 23%;
+    align-self: auto;
+  }
+  
+  .box2 {width: 48.6%;
+    height: 23%;
+  align-self: auto;
+  }
+  .box3 {width: 48.6%;
+    height: 23%;
+    align-self: auto
+  }
+  .box4 {width: 23.6%;
+    height: 23%;
+    align-self: auto
+  }
+  .box5 {width: 23.6%;
+    height: 23%;
+    align-self: auto
+  }
+  .box6 {width: 23.6%;
+    height: 23%;
+    align-self: auto
+  }
+  .box7 {width: 23.6%;
+    height: 23%;
+    align-self: auto
+  }
+  .box8 {width: 32.4%;
+    height: 23%;
+    align-self: auto
+  }
+  .box9 {width: 32.4%;
+    height: 23%;
+    align-self: auto
+  }
+  .box10 {width: 32.4%;
+    height: 23%;
+    align-self: auto
+  } */
+

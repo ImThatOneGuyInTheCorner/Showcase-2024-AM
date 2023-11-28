@@ -1,0 +1,84 @@
+body{
+    background: linear-gradient(to bottom, #ffebcd,#ffdeac);
+    margin: 0px;
+}
+.title{
+    
+    background: linear-gradient(to bottom,#195e19,#218021);
+    padding: 10px;
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+    border: 15px solid #218021 ;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    font-size: xx-large;
+    color:  #a4e2a4;
+ }
+ .one {
+    width: 300px;
+    background-color: #ffebcd;
+    border: 15px solid #218021 ;
+    border-radius: 100px;
+    padding: 50px;
+    margin: 20px; 
+}
+.two{
+    width: 300px;
+    background-color: #ffebcd;
+    border: 15px solid rgb(33, 128, 33) ;
+    border-radius: 100px;
+    padding: 50px;
+    margin: 20px; 
+}
+.boxes{
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+}
+.box3{
+    width: 300px;
+    background-color: #ffebcd;
+    border: 15px solid rgb(33, 128, 33) ;
+    border-radius: 100px;
+    padding: 50px;
+    margin: 20px; 
+}
+.four{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 100px;
+}
+.Velociraptor{
+    border-radius: 50px;
+}
+.five{
+    width: 350px;
+    background-color: #ffebcd;
+    border: 15px solid rgb(33, 128, 33) ;
+    border-radius: 100px;
+    padding: 50px;
+    margin: 10px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: x-large;
+}
+.centertext{
+    display: flex;
+    justify-content: center;
+}
+.footer{
+    
+    background: linear-gradient(to bottom,#195e19,#218021);
+    padding: 10px;
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+    border: 15px solid #218021 ;
+    border-radius: 50px;
+    font-size: large;
+    color:  #a4e2a4;
+}

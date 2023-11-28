@@ -1,0 +1,169 @@
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: space-around;
+}
+
+body {
+    position: absolute;
+    width: 80%;
+    left: 10%;
+    background-color: rgb(117, 136, 131);
+    text-decoration-color: white;
+}
+
+h1,
+h2 {
+    color: white;
+}
+
+p,
+small,
+figcaption {
+    color: rgb(205, 198, 198);
+}
+
+img {
+    max-width: 100%;
+}
+
+header {
+    width: 100%;
+    display: flex;
+}
+
+header>section {
+    width: 50%;
+}
+
+#yinlong {
+    flex-grow: 2;
+    flex-shrink: 0;
+    margin-top: 5%;
+    margin-left: auto;
+    width: 50%;
+    height: auto;
+    justify-content: center;
+}
+
+small#read-time {
+    flex-flow: row;
+}
+
+/* figure#yinlong
+{
+   margin: auto 5px;
+   width: 590px;
+   height: 330px;
+} */
+
+.habitat-discovery {
+    width: 50%;
+    /* display: flex;
+    justify-content:flex-end; */
+}
+
+/* .habitat-discovery>h2,p{
+    width: 50%;
+} */
+
+aside {
+    display: inline;
+    border: 2px solid white;
+    width: 20%;
+    margin: auto;
+    /* text-align: center; */
+    /* align-self:center; */
+    /* align-content: center; */
+    flex-shrink: 0;
+    flex-grow: 0;
+    padding: 1%;
+}
+
+aside>section>h2 {
+    /* margin-bottom: 5%; */
+    padding: 5%;
+}
+
+aside>section>p {
+    text-align: center;
+}
+
+.side-icon {
+    display: inline;
+    /* margin-top: 5%; */
+}
+
+.together {
+    display: inline;
+}
+
+/* 
+aside>section>h2{
+    display:inline;
+} */
+
+ul {
+    list-style-type: none;
+    text-align: justify;
+    justify-content: center;
+    color: rgb(205, 198, 198);
+}
+
+/* https://stackoverflow.com/questions/49106256/li-elements-fill-ul-width-with-same-spacing-between-element-in-horizontal-menu */
+img#icon {
+    width: 50px;
+    height: 50px;
+}
+
+/* .side-icon{
+    flex-flow:row;
+} */
+
+section#pictures {
+    justify-content: center;
+    max-width: fit-content;
+    max-height: fit-content;
+    width: 100%;
+}
+
+.line-up {
+    display: flex;
+    width: fit-content;
+}
+
+.line-up>section {
+    display: inline;
+}
+
+.same_period_pic {
+    display: inline;
+}
+
+/* section#time-period {
+    justify-content: center;
+} */
+
+/* section#same-period {} */
+
+.title {
+    text-align: center;
+}
+
+.lone-wolf {
+    display: block;
+    text-align: center;
+}
+
+section#section-of-predator {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+section#predator-of-yinlong {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+}

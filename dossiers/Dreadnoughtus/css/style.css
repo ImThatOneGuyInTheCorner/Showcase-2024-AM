@@ -1,0 +1,56 @@
+p {
+
+    font-size: 20px;
+    color: rgb(231, 229, 229);
+    border-style: double;
+    border-width: 7px;
+    background-color:rgb(151, 120, 101);
+    border-color: rgb(245, 245, 178);
+    padding: 20px;
+}
+img {
+
+    max-width: 100%;
+    border-style: double;
+    border-width: 10px;
+}
+
+
+main,
+.row {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+.one-half {
+    width: 48%;
+}
+
+.one-quarter {
+    width: 24%;
+}
+
+body {
+    background-color:rgb(245, 245, 178);
+    Border: dotted;
+    Border-width:thick;
+    padding: 15px;
+}
+
+sup>a{
+    color: rgb(231, 184, 76);
+}
+
+h1{
+    font-size: 50px;
+    font-style: italic;
+}
+
+.Yes-Yes-No-No {
+    margin: 15px;
+}
+
+.top-margin {
+    margin-top: 8em;
+}

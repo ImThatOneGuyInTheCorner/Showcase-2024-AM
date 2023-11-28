@@ -1,0 +1,129 @@
+* { box-sizing: border-box; }
+
+
+/* Some default styles to make each box visible. This targets all items with a class that starts with "box" */
+[class^="box"] {
+  color:rgb(0, 0, 0);
+  font-size: 20px;
+  text-shadow:0px 0px 0 rgba(0,0,0,0.1);
+  padding:10px;
+}
+
+/* Colors for each box */
+.box1 { background:#ffffff;}
+.box2 { background:#ffffff;}
+.box3 { background:#ffffff;}
+.box4 { background:#ffffff;}
+.box5 { background:#ffffff;}
+.box6 { background:#ffffff;}
+.box7 { background:#ffffff;}
+.box8 { background:#ffffff;}
+.box9 { background:#ffffff;}
+.box10 { background:#ffffff;}
+
+.flex-container {
+    display:flex;
+    flex-flow:row wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    
+  }
+
+  [class^="box"] {
+    
+  }
+  .box1 {
+    width: 80%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+  .box2 {
+    width: 20%;
+  }
+  .box3 {
+    width: 200%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+  .box4 {
+    width: 60%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+  .box5 {
+    width: 40%;
+  }
+  .box6 {
+    width: 50%;
+  }
+  .box7 {
+    width: 50%;
+  }
+  .box8 {
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+  .box9 {
+    width: 50%;
+  }
+  .box10 {
+    width: 50%;
+  }
+  .box11 {
+    width: 15%;
+  }
+  .box12 {
+    width: 50%;
+  }
+
+  h2, h3, h4, h5, h6 {
+    font-family: "Helvetica", "Arial", sans-serif;
+    font-weight: bold; 
+    font-size: 40px;                             
+  }
+
+  h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 50px;
+  }
+
+  ul {
+    list-style-type: circle;
+  }
+  
+  p {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 25px;
+  }
+
+  .box2 {
+    color: #FFF;
+    background-color: #3e4246;
+    font-weight: bold;
+    padding: 20px;
+    text-align: center;
+    
+  
+    width: 18%;
+    box-sizing: border-box;
+    margin: 20px auto; /* Vertical  Horizontal */
+  }
+
+  li {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+  }
+
+  h3 {
+    text-align: center;
+  }

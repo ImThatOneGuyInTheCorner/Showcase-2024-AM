@@ -1,0 +1,44 @@
+[class^="box"]{
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    padding: 10px;
+    border: 5px solid rgb(49, 68, 104);
+    margin: 25px;
+}
+
+.box1 {background: #c6f5ef}
+.box2 {background: #c6f5ef}
+.box3 {background: rgb(85, 116, 179)}
+
+.flex-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    align-items: space-around;
+}
+
+[class^="box"] {
+
+}
+
+.header{
+    justify-self: center;
+    height: 10vh;
+}
+
+.box1 {
+    height: 50vh;
+    width: 175vh;
+}
+
+.box2 {
+    height: 35vh;
+}
+
+.half {
+    width: 50%;
+}
+
+.fourth {
+    width: 25%;
+}

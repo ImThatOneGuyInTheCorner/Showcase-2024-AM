@@ -1,0 +1,28 @@
+body {
+    color:rgb(31, 78, 79);
+    background-color:rgb(54, 107, 113)
+}
+
+h1, h2, h3, p, ol, ul, figcaption {
+    color:rgb(54, 74, 113);
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    font-size: 4em;
+    margin: 25px;
+    border: solid 5px rgb(49, 68, 104); 
+    background-color: rgb(59, 81, 123);
+}
+
+.box1 {
+    border: solid 5px rgb(49, 68, 104); 
+}
+
+img {
+    border: solid 3px rgb(49, 68, 104);
+}
+
+figcaption {
+    font-size: 15px;
+}

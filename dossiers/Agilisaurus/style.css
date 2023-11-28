@@ -1,0 +1,246 @@
+
+a:link {
+    color: black
+    background-color transparent;
+text-decoration: none;
+}
+a {
+color:rgb(108, 127, 96);
+}
+
+a:visited {
+color: rgb(108, 127, 96);
+background-color:rgb(206, 214, 194);
+text-decoration: none;
+}
+
+a:hover {
+color: rgb(182, 194, 174);
+background-color: transparent;
+text-decoration: underline;
+}
+main {
+margin-top: 100px;
+}
+header {
+    position: fixed;
+    top: 0;
+    background-color: rgb(206, 214, 194);
+    width:100%
+    
+}
+h1 {
+    font-family: 'Jua', sans-serif;
+}
+h3 {
+    font-family: 'Jua', sans-serif;
+}
+header nav {
+    font-family: 'Jua', sans-serif;
+
+}
+nav h3{
+    display: inline-block;
+}
+ul {
+    display: inline-block;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    
+}
+li{
+    display:inline-block;
+}
+li a{
+    padding: 8px;
+}
+li a {
+    display: inline;
+    width: 60px;
+    background-color: rgb(255, 255, 255);
+}
+li a:hover {
+    background-color: rgb(106, 121, 100);
+    color:rgb(212, 223, 204);
+}
+p {
+    font-family: 'Jua', sans-serif;
+}
+h6 {
+    color:white;
+}
+.indented{
+    padding-left: 50pt;
+    padding-right: 500pt;
+}
+.indented2 {
+    padding-left:50pt;
+}
+.photos {
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    padding-top: 30pt;
+    background-size: contain;
+}
+.flex {
+    display:flex;
+    justify-content:space-around;
+}
+.content {
+    width: 90%;
+    padding-left: 50pt;
+    font-family: 'Jua', sans-serif;
+    font-size: 20px;
+}
+.classification {
+    width: 40%;
+    font-family: 'Jua', sans-serif;
+    border-color: red;
+    border-style: solid;
+    border: 1px;
+    
+   
+    }
+    table {
+        float:right;
+            margin-bottom: calc(4rem + 1vw);
+            padding-left: 2rem;
+            padding-right: 2rem;
+        border-color: rgb(89, 100, 59);
+        border-style: solid;
+        border: 3px;
+    }
+    thead {
+        background-color:rgb(182, 194, 174);
+        color:rgb(66, 70, 63);
+    }
+    th{
+        padding: 5px;
+    }
+    tbody > tr:nth-child(even) {
+        background-color: rgb(170, 139, 111);
+    }
+    tbody > tr:nth-child(odd) {
+        background-color: rgb(207, 187, 170)
+    }
+
+.photofooter{
+    padding-left: 15%;
+    font-size: 14px;
+}
+.photofooter2 {
+    padding-left: 10%;
+    font-size: 14px;
+}
+.photos2 {
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    height: auto;
+    padding-top: 30pt;
+    background-size: contain;
+}
+* {
+    box-sizing: border-box;
+}
+
+.slideshow-container {
+    width: 750px;
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+    /* padding-left: 15%; */
+}
+
+.slides {
+    display: flex;
+    overflow-x: hidden;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    -webkit-overflow-scrolling: touch;
+}
+
+.slides::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+}
+
+.slides::-webkit-scrollbar-thumb {
+    background: rgb(0, 0, 0);
+    border-radius: 10px;
+}
+
+.slides::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+.slides > div {
+    scroll-snap-align: start;
+    flex-shrink: 0;
+    width: 750px;
+    height: 320px;
+    border-radius: 10px;
+    background:transparent;
+    transform-origin: center center;
+    transform: scale(1);
+    transition: transform 0.5s;
+    position: relative;
+    /* margin-left: 10%; */
+    /* margin-right: auto; */
+}
+
+.slideshow-container img {
+    object-fit:scale-down;
+    object-position:center;
+    position:fixed;
+    top: 0;
+    left: 0;
+    width: 750px;
+    height: 320px;
+    margin-left: 0%;
+    margin-right: 10%;
+    
+}
+
+.slideshow-nav {
+  position: absolute;
+  z-index: 2;
+  bottom: 1rem;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+}
+
+.slideshow-nav > a {
+    display: inline-flex;
+    width: 1.5rem;
+    height: 1.5rem;
+    background: rgb(166, 184, 132);
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    margin: 0 0.25rem;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.3);
+}
+
+.slideshow-nav > a:hover {
+  background-color: rgb(255, 224, 226);
+}
+
+.slideshow-nav > a:focus {
+    background: #e3b0c1;
+}
+
+/* Touch devices don't need button navigation */
+@supports (scroll-snap-type) {
+  .slideshow-nav {
+        display: none; /* Hide the nav buttons on touch devices */
+    }
+    .slides {
+      overflow-x: scroll; /* Show a scroll bar beneath slides on touch devices */
+  }

@@ -1,0 +1,105 @@
+* {
+    box-sizing: border-box;
+}
+
+.carousel {
+    width: 95%;
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+}
+
+.slides {
+    display: flex;
+    overflow-x: hidden;
+    /* Hide the scroll bar beneath slides on non-touch devices */
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    -webkit-overflow-scrolling: touch;
+    border: solid 3px rgba(47, 142, 131, 0.43);
+}
+
+.slides::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+}
+
+.slides::-webkit-scrollbar-thumb {
+    background: black;
+    border-radius: 10px;
+}
+
+.slides::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+.slides>div {
+    scroll-snap-align: start;
+    flex-shrink: 0;
+    width: 100%;
+    height: 24vw;
+    border-radius: 10px;
+    background: #fff;
+    transform-origin: center center;
+    transform: scale(1);
+    transition: transform 0.5s;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 100px;
+
+}
+
+.carousel img {
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.slideshow-nav {
+    position: absolute;
+    z-index: 2;
+    bottom: 1rem;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+}
+
+.slideshow-nav>a {
+    display: inline-flex;
+    width: 1.5rem;
+    height: 1.5rem;
+    background: rgba(60, 95, 93, 0.822);
+    color: #d6ebea;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+    border-radius: 35%;
+    margin: 0 0.25rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+.slideshow-nav>a:hover {
+    background-color: rgb(120, 174, 156);
+}
+
+.slideshow-nav>a:focus {
+    background: #41545c;
+}
+
+/* Touch devices don't need button navigation */
+@supports (scroll-snap-type) {
+    .slideshow-nav {
+        display: none;
+        /* Hide the nav buttons on touch devices */
+    }
+
+    .slides {
+        overflow-x: scroll;
+        /* Show a scroll bar beneath slides on touch devices */
+    }
+}

@@ -1,0 +1,83 @@
+section2 {
+    display: flex;
+}
+section1 {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    font-size:20px;
+    flex-basis: auto;
+}
+section3{
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    font-size: 18px;
+    
+}
+nav1{
+    display:flex;
+    align-content:center;
+    flex-direction: column;
+    align-items: center;
+}
+nav2{
+    
+}
+
+
+nav12{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.flex-container{
+    display: flex;
+    flex-direction: row;
+
+}
+.section5{
+    
+}
+.section6{
+    width:32%;
+}
+.section7{
+    width:32%;
+}
+nav10{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content:center;
+    
+}
+divsize{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+}
+nav13{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+section44{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+navtitle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}

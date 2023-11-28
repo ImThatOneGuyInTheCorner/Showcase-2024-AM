@@ -1,0 +1,22 @@
+hr {
+    border: 5px solid black;
+}
+body{
+    background-color: wheat;
+}
+
+div {
+    background-color: rgb(229, 219, 219);
+    width: 300px;
+    border: 15px solid rgb(172, 122, 122);
+    padding: 50px;
+    margin: 20px;
+  }
+  .bottom-box{
+display: flexbox;
+justify-content: center;
+
+  }
+
+
+  

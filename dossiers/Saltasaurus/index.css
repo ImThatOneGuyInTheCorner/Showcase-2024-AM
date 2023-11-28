@@ -1,0 +1,93 @@
+* { box-sizing: border-box; }
+
+
+main{
+    overflow-x: hidden;
+}
+
+[class^="sec"] {
+    color:rgb(0, 0, 0);
+    font-size: 20px;
+    text-align: start;
+    padding: 10px;
+    padding-left: 5%;
+    outline: 3px solid black;
+    background-color: rgb(255, 255, 238);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+
+}
+
+#Contemporaries {
+    align-self: flex-start;
+    padding-left: 5vw;
+}
+#Contemporaries1 {
+    align-self: flex-start;
+    padding-left: 10vw;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-size: 32px;
+    background-color: rgb(195, 184, 184);
+}
+
+.content {
+    display: flex;
+    width: 100%;
+    padding: 0px;
+    padding-top: 20px;
+}
+
+#table {
+    background-color: rgb(255, 247, 247);
+}
+
+.sources {
+    display: flex;
+    flex-direction: column;
+    text-wrap: wrap;
+    font-size: 24px;
+    background-color: rgb(217, 217, 217);
+    padding: 10px;
+}
+
+
+[class^="flex-container"] {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    height: 320vh;
+    width: 50vw;
+}
+
+@media (min-width: 1650px) {
+    [class^="flex-container"] {
+        height: 280vh;
+    }
+}
+
+.sec1,
+.sec4,
+.sec14,
+.sec8,
+.sec11,
+.sec16 {
+    background-color: rgb(255, 235, 235);
+}
+
+.sec2,
+.sec5,
+.sec7,
+.sec15,
+.sec10,
+.sec13 {
+    background-color: aliceblue;
+}

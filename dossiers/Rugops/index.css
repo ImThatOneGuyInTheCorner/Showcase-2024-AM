@@ -1,0 +1,48 @@
+img {
+    max-width: 85%;
+}
+
+
+main {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+
+main>section {
+    width: 48%;
+}
+
+h2,
+h3 {
+    font-style: italic;
+}
+
+aside ul {
+    background-color: rgb(207, 166, 113);
+    padding: 50px;
+    border: 3px solid #000000;
+}
+
+body {
+    color: #140c0c;
+    background-color: #ffffff;
+    font-size: 18px;
+}
+
+h1 {
+    font-size: 2em;
+}
+
+h2 {
+    font-size: 1.5em;
+    background-color: rgb(89, 184, 12);
+    padding: 5px;
+    border: 3px solid #000000;
+    width: max-content;
+}
+
+p {
+    text-align: left;
+}
+
