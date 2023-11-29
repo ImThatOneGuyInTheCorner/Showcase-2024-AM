@@ -21,7 +21,6 @@ footer {
 *{
     box-sizing: border-box;
 }
-
 body {
     position: relative;
     display: flex;
@@ -30,7 +29,7 @@ body {
     margin: 0px;
 }
 .navbar {
-    height: 10vh;
+    height: 8vh;
     display: flex;
     position: fixed;
     justify-content: space-around;
@@ -48,11 +47,11 @@ body {
     align-items: center;
 }
 .navbut {
-    height: 6.5vh;
+    height: 5.5vh;
     text-decoration: none;
     background-color: #C29B64;
     border-radius: 7px;
-    border-width: 5px;
+    border-width: 2px;
     border-color: #F8D042;
     border-style: solid;
     text-align: center;
@@ -60,6 +59,10 @@ body {
     color: white;
     z-index: 2;
     width: 12vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
 }
 .navbut:hover {
     background-color: #a58556;
@@ -70,13 +73,19 @@ body {
     width: 128px;
     height: 128px;
     position: relative;
-    top: 40%;
+    top: 50%;
     z-index: 2;
 }
 .dropdown {
     cursor: pointer;
-    display: flex;
-    flex-direction: row;
+}
+.dropdownText {
+    margin: 0px;
+}
+.arrow {
+    height: 32px;
+    width: 32px;
+    background: url('https://api.iconify.design/eva/arrow-up-fill.svg?color=white&flip=vertical') no-repeat center center / contain;
 }
 .main {
     top: 64px;
@@ -87,11 +96,4 @@ body {
     background-repeat: no-repeat;
     background-size: contain;
     height: 40em;
-}
-.arrow {
-    /* align-self: center; */
-    /* text-align: center; */
-    height: 32px;
-    width: 32px;
-    background: url('https://api.iconify.design/eva/arrow-up-fill.svg?color=white&flip=vertical') no-repeat center center / contain;
 }
