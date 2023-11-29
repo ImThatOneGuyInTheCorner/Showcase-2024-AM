@@ -92,8 +92,34 @@ body {
     position: relative;
 }
 .welcome {
-    background-image: url(../img/LogoLeaves.jpg);
+    background-image: url(../img/LogoLeaves-2.jpg);
     background-repeat: no-repeat;
-    background-size: contain;
-    height: 40em;
+    background-size: cover;
+    height: 43.75vw;
+    width: 100%;
+}
+h1 {
+    padding-top: 15px;
+    margin: 18px;
+    color: white;
+    font-size: 4vw;
+    width: 30vw;
+    text-align: center;
+}
+.ticketBut {
+    height: 5.5vh;
+    text-decoration: none;
+    background-color: #C29B64;
+    border-radius: 7px;
+    border-width: 2px;
+    border-color: #F8D042;
+    border-style: solid;
+    text-align: center;
+    font-size: 2vw;
+    color: white;
+    width: 12vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
 }
