@@ -107,22 +107,124 @@ h2{
 .dino_a{
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-around;
     margin-right: 30%;
     margin-left: 30%;
 }
 .dino_b{
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-around;
     margin-right: 30%;
-    margin-left: 30%;
+    margin-left: 30%;   
 }
 .dino_c{
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-around;
     margin-right: 30%;
     margin-left: 30%;
 }
+.dino_d{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-right: 30%;
+    margin-left: 30%;
+}
+.dino_e{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-right: 30%;
+    margin-left: 30%;
+}
+.dino_g{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-right: 30%;
+    margin-left: 30%;
+}
+.dino_i{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-right: 30%;
+    margin-left: 30%;
+}
+.dino_k{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-right: 30%;
+    margin-left: 30%;
+}
+.dino_m{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-right: 30%;
+    margin-left: 30%;
+}
+.dino_p{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-right: 30%;
+    margin-left: 30%;
+}
+.dino_r{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-right: 30%;
+    margin-left: 30%;
+}
+.dino_s{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-right: 30%;
+    margin-left: 30%;
+}
+.dino_t{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-right: 30%;
+    margin-left: 30%;
+}
+.dino_u{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-right: 30%;
+    margin-left: 30%;
+}
+.dino_v{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-right: 30%;
+    margin-left: 30%;
+}
+.dino_y{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-right: 30%;
+    margin-left: 30%;
+}
+.dino_z{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-right: 30%;
+    margin-left: 30%;
+}
+
+
+
+
 
