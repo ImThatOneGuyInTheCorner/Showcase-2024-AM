@@ -8,6 +8,7 @@ body {
     position: relative;
     display: flex;
     flex-direction: column;
+    margin: 0%;
 }
 .navbar {
     font-family: 'Inika', serif;
@@ -222,6 +223,15 @@ h2{
     justify-content: space-around;
     margin-right: 30%;
     margin-left: 30%;
+}
+footer{
+    margin-top: 10%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    color: white;
+    background-color: #5C443A;
+    height: 8vw;
 }
 
 
