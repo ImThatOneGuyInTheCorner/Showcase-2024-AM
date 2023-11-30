@@ -107,19 +107,21 @@ h1 {
     text-align: center;
 }
 .ticketBut {
-    height: 5.5vh;
-    text-decoration: none;
-    background-color: #C29B64;
+    height: 5.5vw;
+    background-color: #AE252C;
     border-radius: 7px;
-    border-width: 2px;
-    border-color: #F8D042;
+    border-width: 1px;
+    border-color: #fff;
     border-style: solid;
     text-align: center;
     font-size: 2vw;
-    color: white;
+    color: #fff;
     width: 12vw;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
+}
+#ticketText {
+    text-decoration: none;
 }
