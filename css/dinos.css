@@ -85,8 +85,8 @@ body{
 .dino_box{
     display: flex;
     align-items: center;
-    justify-content: center;
-    width: 30%;
+    flex-direction: column;
+    width: 35%;
     color: white;
     background-image: url(../img/StoneTexture.jpg);
     background-color: #C29B64;
@@ -97,6 +97,9 @@ body{
     border-width: 5px;
     border-color: #F8D042;
     border-style: solid;
+    padding-top: 3%;
+    margin-left: 3%;
+    margin-right: 3%;
 }
 h2{
     font-size: 500%;
@@ -105,6 +108,15 @@ h2{
     margin-left: 5%;
     margin-right: 5%;
 }
+.dino_img{
+    max-width: 150px;
+    max-height: 150px;
+}
+
+
+
+
+
 .dino_a{
     display: flex;
     align-items: center;
