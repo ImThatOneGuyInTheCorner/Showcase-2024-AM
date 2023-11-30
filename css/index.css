@@ -17,6 +17,7 @@ footer {
 :root {
     padding: 0;
     margin: 0;
+    color: white;
 }
 *{
     box-sizing: border-box;
@@ -80,7 +81,7 @@ body {
     cursor: pointer;
 }
 .dropdownText {
-    margin: 0px;
+    margin: 0%;
 }
 .arrow {
     height: 32px;
@@ -107,7 +108,7 @@ h1 {
     text-align: center;
 }
 .ticketBut {
-    height: 5.5vw;
+    height: 6.5vw;
     background-color: #AE252C;
     border-radius: 7px;
     border-width: 1px;
@@ -116,12 +117,34 @@ h1 {
     text-align: center;
     font-size: 2vw;
     color: #fff;
-    width: 12vw;
+    width: 14vw;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
 }
-#ticketText {
+#ticketA {
     text-decoration: none;
+}
+#ticketWholeBut {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding: 10vw;
+    height: 30vw;
+}
+.leafBackground {
+    height: 8vw;
+    width: 100%;
+    background-repeat: repeat;
+    background-color: #4f9780;
+    background-image: url(../img/LeafTexture.jpg);
+    background-blend-mode: multiply;
+}
+.content {
+    background-image: url(../img/LeavesBackground.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80vw;
+    width: 100%;
 }
