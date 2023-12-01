@@ -1,17 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Inika&family=Jomolhari&family=Joti+One&family=Kaisei+Tokumin:wght@500&display=swap');
-
 /* Establishing fonts throughout website */
 :root {
     font-family: 'Kaisei Tokumin', serif;
-}
-.navbar {
-    font-family: 'Inika', serif;
 }
 h2, h1 {
     font-family: 'Joti One', serif;
 }
 footer {
     font-family: 'Jomolhari', serif;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Inika');
+
+.navbar, .dropbtn {
+    font-family: 'Inika', serif;
 }
 
 :root {
@@ -48,7 +51,7 @@ body {
     background-blend-mode:multiply;
     align-items: center;
 }
-.navbut {
+.navbut, .dropbtn {
     height: 5.5vh;
     text-decoration: none;
     background-color: #C29B64;
@@ -78,17 +81,32 @@ body {
     top: 50%;
     z-index: 2;
 }
-.dropdown {
-    cursor: pointer;
-}
 .dropdownText {
     margin: 0px;
+}.dropdown {
+    position: relative;
+    display: inline-block;
 }
-.arrow {
-    height: 32px;
-    width: 32px;
-    background: url('https://api.iconify.design/eva/arrow-up-fill.svg?color=white&flip=vertical') no-repeat center center / contain;
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #C29B64;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,1);
+    z-index: 1100;
 }
+.dropdown-content a {
+    color: #fff;
+    padding: 10% 2.5vw;
+    text-decoration: none;
+    display: block;
+    border-style: dashed;
+    border-color: #F8D042;
+}
+.dropdown:hover .dropdown-content {display: block;}
+.dropdown:hover .dropbtn, .dropdown-content a:hover {background-color: #a58556;}
+
+
 .main {
     top: 64px;
     position: relative;
