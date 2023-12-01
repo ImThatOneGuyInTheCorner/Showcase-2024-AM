@@ -84,7 +84,6 @@ body {
 }
 body{
     background-image: url(../img/LeavesBackground.jpg);
-    background-repeat: no-repeat;
     background-size: cover;
 }
 .dino_box{
