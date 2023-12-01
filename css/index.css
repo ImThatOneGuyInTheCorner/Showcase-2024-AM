@@ -40,7 +40,7 @@ body {
     background-color: rgb(255, 213, 150);
     font-size: large;
     text-align: center;
-    border-width: .5vw;
+    border-width: 5px;
     border-color: #F8D042;
     border-style: solid;
     background-image: url(../img/StoneTexture.jpg);
@@ -52,8 +52,8 @@ body {
     height: 5.5vh;
     text-decoration: none;
     background-color: #C29B64;
-    border-radius: 1vw;
-    border-width: .3vw;
+    border-radius: 7px;
+    border-width: 2px;
     border-color: #F8D042;
     border-style: solid;
     text-align: center;
@@ -82,7 +82,7 @@ body {
     cursor: pointer;
 }
 .dropdownText {
-    margin: 0%;
+    margin: 0px;
 }
 .arrow {
     height: 32px;
@@ -225,4 +225,12 @@ footer{
 }
 #quote {
     padding-left: 6vw;
+}
+.events {
+    padding-top: 2vw;
+}
+#events {
+    font-family: 'Joti One', serif;
+    color: #fff;
+    font-size: 3vw;
 }
