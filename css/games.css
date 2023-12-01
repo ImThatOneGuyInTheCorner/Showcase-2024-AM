@@ -84,6 +84,9 @@ body{
 h2{
     margin-top: 8%;
     text-align: center;
+}.description{
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 footer{
