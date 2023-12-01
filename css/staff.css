@@ -86,8 +86,10 @@ h2{
     text-align: center;
 }
 .students{
-
-
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
 }
 .student{
     display: flex;
@@ -105,8 +107,9 @@ h2{
     border-color: #F8D042;
     border-style: solid;
     padding-top: 3%;
-    margin-left: 3%;
-    margin-right: 3%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 5%;
 }
 
 
