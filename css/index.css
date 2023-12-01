@@ -39,7 +39,7 @@ body {
     background-color: rgb(255, 213, 150);
     font-size: large;
     text-align: center;
-    border-width: 5px;
+    border-width: .5vw;
     border-color: #F8D042;
     border-style: solid;
     background-image: url(../img/StoneTexture.jpg);
@@ -51,8 +51,8 @@ body {
     height: 5.5vh;
     text-decoration: none;
     background-color: #C29B64;
-    border-radius: 7px;
-    border-width: 2px;
+    border-radius: 1vw;
+    border-width: .3vw;
     border-color: #F8D042;
     border-style: solid;
     text-align: center;
@@ -92,26 +92,37 @@ body {
     top: 64px;
     position: relative;
 }
+.welcomeBar {
+    display: flex;
+    margin: 0%;
+    height: 43.75vw;
+}
+.welcomeSide {
+    background-color: #4f9780;
+    height: 100%;
+    width: 10vw;
+    margin: 0%;
+}
 .welcome {
     background-image: url(../img/LogoLeaves-2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 43.75vw;
     width: 100%;
+    height: 100%;
 }
 h1 {
     padding-top: 15px;
     margin: 18px;
     color: white;
-    font-size: 4vw;
-    width: 30vw;
+    font-size: 3vw;
+    width: 25vw;
     text-align: center;
 }
 .ticketBut {
     height: 6.5vw;
     background-color: #AE252C;
-    border-radius: 7px;
-    border-width: 1px;
+    border-radius: 1vw;
+    border-width: .2vw;
     border-color: #fff;
     border-style: solid;
     text-align: center;
@@ -130,7 +141,7 @@ h1 {
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
-    padding: 10vw;
+    padding: 2vw;
     height: 30vw;
 }
 .leafBackground {
@@ -162,12 +173,15 @@ footer{
     font-size: .75vw;
 }
 .pricing {
+    font-family: 'Jomolhari', serif;
+    font-size: 1.5vw;
     display: flex;
     flex-direction: column;
     background-color: #334E57;
     border-color: #15193E;
     border-style: solid;
-    border-radius: 30px;
+    border-radius: 3vw;
+    border-width: .3vw;
     height: 30vw;
     width: 80%;
     margin-top: 10vw;
@@ -181,6 +195,32 @@ footer{
     width: 50%;
     border-color: #192041;
     border-style: solid;
-    border-radius: 15px;
-    border-width: 3px;
+    border-radius: 2vw;
+    border-width: .3vw;
+}
+#viewOurTicket {
+    text-decoration: none;
+    color: #fff;
+    border-style: solid;
+    border-color: #192041;
+    border-radius: 1vw;
+    border-width: .2vw;
+    background-color: #AE252C;
+    height: 4vw;
+    width: 30%;
+    font-size: 1.5vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.about {
+    width: 70%;
+    font-size: 1.5vw;
+    background-color: rgba(15,19,30,0.5);
+    border-radius: 3vw;
+    padding: 2vw;
+    margin-top: 2vw;
+}
+#quote {
+    padding-left: 6vw;
 }
