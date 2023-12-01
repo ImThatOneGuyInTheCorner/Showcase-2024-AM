@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inika');
 
-.navbar, .dropbtn {
-    font-family: 'Inika', serif;
+*{
+    box-sizing: border-box;
 }
 
 :root {

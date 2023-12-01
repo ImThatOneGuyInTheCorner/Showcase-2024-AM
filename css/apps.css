@@ -98,6 +98,10 @@ body{
     background-size: cover;
     color: white;
 }
+.description{
+    margin-left: 10%;
+    margin-right: 10%;
+}
 
 footer{
     margin-top: 10%;
