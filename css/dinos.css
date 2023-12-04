@@ -124,6 +124,11 @@ body{
     padding-top: 3%;
     margin-left: 3%;
     margin-right: 3%;
+    transition: transform 0.3s ease-in-out, border-color 0.5s;
+}
+.dino_box:hover{
+    transform: translateY(-20px);
+    border-color: #bfa032;
 }
 h2{
     font-size: 500%;
