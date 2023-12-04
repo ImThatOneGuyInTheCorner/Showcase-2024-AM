@@ -106,7 +106,6 @@ h2{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    
 }
 .student{
     font-size: 1.5vw;
@@ -129,7 +128,8 @@ h2{
     margin-left: 5%;
     margin-right: 3%;
     margin-top: 3%;
-    transition: transform 0.3s ease-in-out, border-color 0.5s, width 0.5s, margin-right 0.5s, display 0.5s;
+    background-position: Left;
+    transition: transform 0.3s ease-in-out, border-color 0.5s, width 0.5s, margin-right 0.5s;
 }
 .name {
     font-size: 1.8vw;
@@ -138,11 +138,12 @@ h2{
 .left {
     display: flex;
     flex-direction: column;
+    justify-content: space-around;
 }
 .student:hover{
     transform: translateY(-10px);
     border-color: #bfa032;
-    width: 18%;
+    width: 40%;
     margin-right: 0%;
     content: gogpifpiygou;
     
@@ -153,9 +154,14 @@ h2{
 }
 .bio {
     display: none;
+    margin-top: 0vw;
+    max-height: 1vw;
 }
 .portrait{
     max-width: 4vw;
+}
+.portrait-container {
+    margin-bottom: 0vw;
 }
 footer{
     margin-top: 10%;
