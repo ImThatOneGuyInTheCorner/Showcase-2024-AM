@@ -99,7 +99,7 @@ body{
     color: white;
 }
 h2{
-    margin-top: 8%;
+    margin-top: 10%;
     text-align: center;
 }
 .students{
@@ -125,8 +125,18 @@ h2{
     border-style: solid;
     padding-top: 3%;
     margin-left: 5%;
-    margin-right: 5%;
-    margin-top: 5%;
+    margin-right: 3%;
+    margin-top: 3%;
+    transition: transform 0.3s ease-in-out, border-color 0.5s, width 0.5s, margin-right 0.5s;
+    
+}
+.student:hover{
+    transform: translateY(-10px);
+    border-color: #bfa032;
+    width: 18%;
+    margin-right: 0%;
+    content: gogpifpiygou;
+    
 }
 
 
@@ -134,8 +144,9 @@ h2{
 
 
 
+
 .portrait{
-    max-width: 100%;
+    max-width: 2vw;
 }
 footer{
     margin-top: 10%;
