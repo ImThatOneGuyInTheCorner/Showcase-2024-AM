@@ -109,10 +109,12 @@ h2{
     
 }
 .student{
+    font-size: 1.5vw;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     text-align: center;
     width: 10%;
+    height: 14vw;
     color: white;
     background-image: url(../img/StoneTexture.jpg);
     background-color: #C29B64;
@@ -127,8 +129,15 @@ h2{
     margin-left: 5%;
     margin-right: 3%;
     margin-top: 3%;
-    transition: transform 0.3s ease-in-out, border-color 0.5s, width 0.5s, margin-right 0.5s;
-    
+    transition: transform 0.3s ease-in-out, border-color 0.5s, width 0.5s, margin-right 0.5s, display 0.5s;
+}
+.name {
+    font-size: 1.8vw;
+    font-weight: bold;
+}
+.left {
+    display: flex;
+    flex-direction: column;
 }
 .student:hover{
     transform: translateY(-10px);
@@ -137,16 +146,16 @@ h2{
     margin-right: 0%;
     content: gogpifpiygou;
     
+    .bio {
+        display: flex;
+    }
+    
 }
-
-
-
-
-
-
-
+.bio {
+    display: none;
+}
 .portrait{
-    max-width: 2vw;
+    max-width: 4vw;
 }
 footer{
     margin-top: 10%;
