@@ -174,8 +174,10 @@ h2{
     margin: 0%;
 }
 .portrait{
-    max-width: 4vw;
-
+    width: 5vw;
+    height: 5vw;
+    object-fit: cover;
+    border-radius: 50%;
 }
 .portrait-container {
     margin-bottom: 0vw;
