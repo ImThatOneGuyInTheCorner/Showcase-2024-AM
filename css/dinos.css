@@ -141,7 +141,14 @@ h2{
     max-width: 150px;
     max-height: 150px;
 }
-
+a{
+    color: white;
+    text-decoration: none;
+    transition: transform 0.5s;
+}
+a:hover{
+    transform: translateY(-10px);
+}
 
 
 
@@ -273,6 +280,22 @@ footer{
     color: white;
     background-color: #5C443A;
     height: 8vw;
+}
+@media screen and (max-width: 600px){
+    .navbar{
+        display: none;
+    }
+    footer{
+        height: 100%;
+        text-align: center;
+        margin-top: 25vw;
+    }
+    .dino_img{
+        display: none;
+    }
+    .dino_box{
+        width: fit-content;
+    }
 }
 
 

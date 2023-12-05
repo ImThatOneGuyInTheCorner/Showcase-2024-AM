@@ -81,7 +81,7 @@ body {
     text-align: center;
     margin-left: 10%;   
     margin-right: 10%;
-    margin-top: 8%;
+    margin-top: 8vw;
 }
 body{
     background-image: url(../img/LeavesBackground.jpg);
@@ -91,7 +91,8 @@ body{
 }
 .content{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    align-items: center;
 }
 .app{
     display: flex;
@@ -103,16 +104,31 @@ body{
     border-radius: 2vw;
     border-width: .3vw;
     padding: 2vw;
-    margin: 3vw;
+    margin: 3%;
+    width: fit-content;
 }
 
 
+
 footer{
-    margin-top: 80%;
+    margin-top: 8%;
     display: flex;
     align-items: flex-end;
     justify-content: center;
     color: white;
     background-color: #5C443A;
     height: 8vw;
+}
+@media screen and (max-width: 600px){
+    footer{
+        height: 100%;
+        text-align: center;
+    }
+
+    .description{
+        margin-top: 25%;
+    }
+    .navbar{
+        display: none;
+    }
 }

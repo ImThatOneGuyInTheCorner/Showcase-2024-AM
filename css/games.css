@@ -128,6 +128,11 @@ h2{
     width: 20vw;
     padding: 2vw;
     margin: 3vw;
+    transition: transform 0.3s ease-in-out, background-color 0.5s;
+}
+.game_box:hover{
+    transform: translateY(-20px);
+    background-color:  #293e45;
 }
 .game_logo{
     width: 10vw;
@@ -140,4 +145,20 @@ footer{
     color: white;
     background-color: #5C443A;
     height: 8vw;
+}
+@media screen and (max-width: 600px){
+    .navbar{
+        display: none;
+    }
+    footer{
+        height: 100%;
+        text-align: center;
+        margin-top: 25vw;
+    }
+    .game_box{
+        font-size: small;
+    }
+    .pop_desc{
+        display: none;
+    }
 }
