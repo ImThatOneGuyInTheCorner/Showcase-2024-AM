@@ -103,9 +103,9 @@ h2{
     text-align: center;
 }
 .students{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-template-rows: 16.5% 16.5% 16.5% 16.5% 16.5% 16.5%;
 }
 .student{
     font-size: 1.5vw;
@@ -113,7 +113,7 @@ h2{
     flex-direction: row;
     text-align: center;
     justify-content: space-between;
-    width: 10%;
+    width: 50%;
     height: 14vw;
     color: white;
     background-image: url(../img/StoneTexture.jpg);
