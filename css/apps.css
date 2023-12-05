@@ -91,7 +91,7 @@ body{
 }
 .content{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
 }
 .app{
@@ -111,7 +111,7 @@ body{
 
 
 footer{
-    margin-top: 8%;
+    margin-top: 10%;
     display: flex;
     align-items: flex-end;
     justify-content: center;
@@ -130,5 +130,9 @@ footer{
     }
     .navbar{
         display: none;
+    }
+    .content{
+        display: flex;
+    flex-direction: column;
     }
 }

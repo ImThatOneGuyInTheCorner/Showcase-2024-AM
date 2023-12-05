@@ -252,3 +252,13 @@ footer{
     color: #fff;
     font-size: 3vw;
 }
+@media screen and (max-width: 600px){
+    .navbar{
+        display: none;
+    }
+    footer{
+        height: 100%;
+        text-align: center;
+        margin-top: 25vw;
+    }
+}
