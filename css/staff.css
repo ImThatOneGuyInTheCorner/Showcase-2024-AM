@@ -104,17 +104,19 @@ h2{
 }
 .students{
     display: grid;
-    grid-template-columns: 20% 20% 20% 20% 20%;
-    grid-template-rows: 16.5% 16.5% 16.5% 16.5% 16.5% 16.5%;
+    grid-template-columns: repeat(5, 18%);
+    grid-template-rows: repeat(6, 20vw);
+    margin-left: 5%;
 }
-.student{
+.student, .studentEnd{
+    position: relative;
     font-size: 1.5vw;
     display: flex;
     flex-direction: row;
     text-align: center;
     justify-content: space-between;
-    width: 50%;
-    height: 14vw;
+    width: 60%;
+    height: 16vw;
     color: white;
     background-image: url(../img/StoneTexture.jpg);
     background-color: #C29B64;
@@ -126,12 +128,12 @@ h2{
     border-color: #F8D042;
     border-style: solid;
     padding-top: 3%;
-    margin-left: 5%;
-    margin-right: 3%;
-    margin-top: 3%;
     background-position: Left;
     transition: transform 0.3s ease-in-out, border-color 0.5s, width 0.5s, margin-right 0.5s;
     overflow: hidden;
+}
+.student:nth-of-type(5n+4) + .student {
+    border-color: red;
 }
 .bio {
     text-align: left;
@@ -160,10 +162,19 @@ h2{
     width: 10vw;
 }
 .student:hover{
-    transform: translateY(-10px);
     border-color: #bfa032;
-    width: 40%;
-    margin-right: 0%;
+    width: 80%;
+    grid-column: span 2;
+    content: gogpifpiygou;
+    
+    .bio {
+        display: flex;
+    }
+}
+.studentEnd:hover {
+    border-color: #bfa032;
+    width: 80%;
+    grid-column: 3/span 2;
     content: gogpifpiygou;
     
     .bio {
