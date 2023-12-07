@@ -129,11 +129,12 @@ h2{
     border-style: solid;
     padding-top: 3%;
     background-position: Left;
-    transition: transform 0.3s ease-in-out, border-color 0.5s, width 0.5s, margin-right 0.5s;
+    transition: transform 0.3s ease-in-out, border-color 0.5s, width 0.5s, margin-right 0.5s, justify-self 0.5s;
     overflow: hidden;
 }
-.student:nth-of-type(5n+4) + .student {
-    border-color: red;
+.student:has(+ .studentEnd:hover) {
+    position: absolute;
+    visibility: hidden;
 }
 .bio {
     text-align: left;
@@ -161,21 +162,21 @@ h2{
     align-items: center;
     width: 10vw;
 }
-.student:hover{
+.student:hover {
     border-color: #bfa032;
     width: 80%;
     grid-column: span 2;
-    content: gogpifpiygou;
     
     .bio {
         display: flex;
     }
 }
 .studentEnd:hover {
+    justify-self: flex-end;
     border-color: #bfa032;
     width: 80%;
-    grid-column: 3/span 2;
-    content: gogpifpiygou;
+    grid-column: span 2;
+    margin-right: 20%;
     
     .bio {
         display: flex;
