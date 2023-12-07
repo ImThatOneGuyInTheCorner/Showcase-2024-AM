@@ -261,4 +261,8 @@ footer{
         text-align: center;
         margin-top: 25vw;
     }
+    .welcomeBar, .leafBackground{
+        display: none;
+    }
+    
 }
