@@ -252,6 +252,9 @@ footer{
     color: #fff;
     font-size: 3vw;
 }
+.mobile_content{
+    display: none;
+}
 @media screen and (max-width: 600px){
     .navbar{
         display: none;
@@ -259,10 +262,31 @@ footer{
     footer{
         height: 100%;
         text-align: center;
-        margin-top: 25vw;
+        margin-top: 65vw;
     }
-    .welcomeBar, .leafBackground{
+    .welcometext{
         display: none;
     }
-    
+    .ticketBut {
+        background-color: #ae252500;
+        border: none;
+    }
+    .welcome{
+        
+    }
+    .welcomeSide{
+        display: none;
+    }
+    .main{
+        top: 0px;
+        background-image: url(../img/LeavesBackground.jpg);
+    }
+    .content{
+        background-image: none;
+        display: flex;
+        margin-top: 10%;
+    }
+    .about{
+        margin-top: 10%;
+    }
 }
