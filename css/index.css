@@ -252,9 +252,6 @@ footer{
     color: #fff;
     font-size: 3vw;
 }
-.mobile_content{
-    display: none;
-}
 @media screen and (max-width: 600px){
     .navbar{
         display: none;
