@@ -252,6 +252,7 @@ footer{
     color: #fff;
     font-size: 3vw;
 }
+
 @media screen and (max-width: 600px){
     .navbar{
         display: none;
