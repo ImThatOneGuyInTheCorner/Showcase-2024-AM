@@ -252,7 +252,6 @@ footer{
     color: #fff;
     font-size: 3vw;
 }
-
 @media screen and (max-width: 600px){
     .navbar{
         display: none;
@@ -260,10 +259,46 @@ footer{
     footer{
         height: 100%;
         text-align: center;
-        margin-top: 25vw;
+        margin-top: 80vw;
     }
-    .welcomeBar, .leafBackground{
+    .welcometext{
         display: none;
     }
-    
+    .ticketBut {
+        background-color: #ae252500;
+        border: none;
+    }
+    .pricing{
+        font-size: large;
+        width: 98%;
+        height: 95%;
+    }
+    .welcome{
+        display: block;
+    }
+    .welcomeSide{
+        display: none;
+    }
+    .main{
+        top: 0px;
+        background-image: url(../img/LeavesBackground.jpg);
+    }
+    .content{
+        background-image: none;
+        display: flex;
+        margin-top: 10%;
+    }
+    .about{
+        margin-top: 10%;
+        font-size: large;
+    }
+    .pass {
+        background-color: #5B9676;
+        height: 40%;
+        width: 60%;
+        padding: 5vw;
+    }
+    #viewOurTicket{
+        display: none;
+    }
 }

@@ -146,6 +146,9 @@ footer{
     background-color: #5C443A;
     height: 8vw;
 }
+.box_5,.box_6{
+    display: none;
+}
 @media screen and (max-width: 600px){
     .navbar{
         display: none;
@@ -157,6 +160,7 @@ footer{
     }
     .game_box{
         font-size: small;
+        width: fit-content;
     }
     .pop_desc{
         display: none;
