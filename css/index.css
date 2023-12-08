@@ -296,6 +296,7 @@ footer{
         background-color: #5B9676;
         height: 40%;
         width: 60%;
+        padding: 5vw;
     }
     #viewOurTicket{
         display: none;
