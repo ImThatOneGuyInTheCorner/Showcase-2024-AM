@@ -146,7 +146,7 @@ a{
     text-decoration: none;
     transition: transform 0.5s;
 }
-a:hover{
+.dino_link{
     transform: translateY(-10px);
 }
 
@@ -294,7 +294,8 @@ footer{
         display: none;
     }
     .dino_box{
-        width: fit-content;
+        width: 85%;
+        height: 20vw;
     }
 }
 

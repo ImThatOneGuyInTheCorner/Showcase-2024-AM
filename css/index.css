@@ -259,7 +259,7 @@ footer{
     footer{
         height: 100%;
         text-align: center;
-        margin-top: 65vw;
+        margin-top: 80vw;
     }
     .welcometext{
         display: none;
@@ -268,8 +268,13 @@ footer{
         background-color: #ae252500;
         border: none;
     }
+    .pricing{
+        font-size: large;
+        width: 98%;
+        height: 95%;
+    }
     .welcome{
-        
+        display: block;
     }
     .welcomeSide{
         display: none;
@@ -285,5 +290,14 @@ footer{
     }
     .about{
         margin-top: 10%;
+        font-size: large;
+    }
+    .pass {
+        background-color: #5B9676;
+        height: 40%;
+        width: 60%;
+    }
+    #viewOurTicket{
+        display: none;
     }
 }
