@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Inika');
 
+.m-navbar, #menuToggle {
+    display: none;
+}
+
 .navbar, .dropbtn {
     font-family: 'Inika', serif;
 }

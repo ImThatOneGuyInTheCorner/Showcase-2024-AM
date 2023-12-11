@@ -1,4 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Inika&family=Jomolhari&family=Joti+One&family=Kaisei+Tokumin:wght@500&display=swap');
+
+.m-navbar, #menuToggle {
+    display: none;
+}
+
 /* Establishing fonts throughout website */
 :root {
     font-family: 'Kaisei Tokumin', serif;
