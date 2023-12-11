@@ -208,14 +208,6 @@ footer{
 }
 
 @media screen and (max-width: 600px){
-    .m-navbar {
-        display: block;
-    }
-    footer{
-        height: 100%;
-        text-align: center;
-        margin-top: 25vw;
-    }
     .portrait-container {
         order: 2;
     }
@@ -264,22 +256,34 @@ footer{
         overflow: hidden;
     }
 
-
     .navbar{
         display: none;
     }
-    .m-menu-buttons {
+    .m-navbar {
+        display: block;
+    }
+    footer{
+        height: 100%;
+        text-align: center;
+        margin-bottom: 10vw;
+    }
+    #m-menu-buttons {
         width: 70%;
         height: 100vw;
         position: fixed;
         bottom: 20vw;
-        left: 5%;
+        left: -40%;
         z-index: 104;
-        background-color: rgba(0,0,0,.6);
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: space-around;
+        transition: transform 1s ease-in-out;
+        transform-origin: 50% 100%;
+        rotate: -100deg;
+    }
+    .slide {
+        transform: rotate(100deg) translatex(60%);
     }
     .m-navbar {
         width: 100%;
@@ -337,9 +341,10 @@ footer{
     .dark {
         transform: translateX(100%);
     }
-    .storePopup {
+    .Popup {
         position: fixed;
-        top: 35vw;
+        top: -130vw;
+        /* target:   top: 30vw;     */
         left: 15%;
         width: 70%;
         height: 120vw;
@@ -352,5 +357,59 @@ footer{
         background-position: center;
         background-color: rgb(149, 181, 255);
         z-index: 105;
+        transition: transform .5s ease-out;
+    }
+    .drop {
+        transform: translateY(160vw);
+    }
+    .x {
+        height: 10vw;
+        width: 10vw;
+        background-color: rgba(0,0,0,.1);
+        position: fixed;
+    }
+    .line {
+        background-color: rgb(43, 43, 43);
+        width: 10vw;
+        height: 1.4vw;
+        rotate: 45deg;
+        position: relative;
+        top: 40%;
+        border-radius: 1vw;
+    }
+    .bltr {
+        rotate: -45deg;
+        top: 29%;
+    }
+    .m-button {
+        background-color: #3B7147;
+        color: #FBFFE2;
+        border-color: #FFA826;
+        border-style: solid;
+        border-width: .5vw;
+        border-radius: 3vw;
+        height: 12vw;
+        width: 25vw;
+        font-family: 'Inika', serif;
+        font-size: 4vw;
+        margin-left: 30vw;
+    }
+    #store {
+        margin-left: 16vw;
+    }
+    #staff {
+        margin-left: 5vw;
+    }
+    #home {
+        margin-left: -5vw;
+    }
+    #dinos {
+        margin-left: -16vw;
+    }
+    #dining {
+        margin-left: -28vw;
+    }
+    #apps {
+        margin-left: -32vw;
     }
 }
