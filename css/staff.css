@@ -110,6 +110,57 @@ h2{
     grid-template-rows: repeat(6, 20vw);
     margin-left: 5%;
 }
+
+.bio {
+    text-align: left;
+    display: none;
+    height: 100%;
+    padding: 5%;
+    margin-top: 0vw;
+    margin-left: 5%;
+    padding-top: 0%;
+    transition: opacity .5s;
+    background-color: rgba(101, 56, 0, 0.50);
+    border-radius: 15px;
+}
+.name {
+    font-size: 1.8vw;
+    font-weight: bold;
+    width: 100%;
+    text-align: center;
+}
+.left {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 10vw;
+}
+
+.portrait-container {
+    margin: 0%;
+}
+.portrait{
+    width: 5vw;
+    height: 5vw;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.portrait-container {
+    margin-bottom: 0vw;
+}
+footer{
+    margin-top: 10%;
+    margin-bottom: 0%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    color: white;
+    background-color: #5C443A;
+    height: 8vw;
+}
+@media screen and (min-width: 600px){
 .student, .studentEnd{
     position: relative;
     font-size: 1.5vw;
@@ -138,32 +189,6 @@ h2{
     position: absolute;
     visibility: hidden;
 }
-.bio {
-    text-align: left;
-    display: none;
-    height: 100%;
-    padding: 5%;
-    margin-top: 0vw;
-    margin-left: 5%;
-    padding-top: 0%;
-    transition: opacity .5s;
-    background-color: rgba(101, 56, 0, 0.50);
-    border-radius: 15px;
-}
-.name {
-    font-size: 1.8vw;
-    font-weight: bold;
-    width: 100%;
-    text-align: center;
-}
-.left {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-    width: 10vw;
-}
 .student:hover {
     border-color: #bfa032;
     width: 80%;
@@ -184,29 +209,7 @@ h2{
         display: flex;
     }
 }
-.portrait-container {
-    margin: 0%;
 }
-.portrait{
-    width: 5vw;
-    height: 5vw;
-    object-fit: cover;
-    border-radius: 50%;
-}
-.portrait-container {
-    margin-bottom: 0vw;
-}
-footer{
-    margin-top: 10%;
-    margin-bottom: 0%;
-    display: flex;
-    align-items: flex-end;
-    justify-content: center;
-    color: white;
-    background-color: #5C443A;
-    height: 8vw;
-}
-
 @media screen and (max-width: 600px){
     .portrait-container {
         order: 2;
@@ -231,7 +234,7 @@ footer{
         margin: 0%;
         width: 100%;
     }
-    .mStudent {
+    .mStudent, .mStudentEnd {
         position: relative;
         font-size: 1.5vw;
         display: flex;
@@ -252,14 +255,53 @@ footer{
         border-style: solid;
         padding-top: 3%;
         background-position: Left;
-        transition: transform 0.3s ease-in-out, border-color 0.5s, width 0.5s, margin-right 0.5s, justify-self 0.5s;
+        transition: transform 0s ease-in-out, border-color 0s, width 0s, margin-right 0s, justify-self 0s;
         overflow: hidden;
     }
     .mStudent:hover {
         width: 94%;
         grid-column: span 3;
+        
+        .bio {
+            display: flex;
+        }
+        .name {
+            margin-bottom: 1%;
+        }
+        .portrait{
+            width: 12vw;
+            height: 12vw;
+            object-fit: cover;
+            border-radius: 50%;
+            margin-bottom: 3vw;
+        }
     }
-
+    .mStudent:has(+ .mStudentMid:hover) {
+        position: absolute;
+        visibility: hidden;
+    }
+    .mStudentEnd:hover {
+        grid-column: span 2;
+        width: 92%;
+        margin-right: 21%;
+    }
+    .mStudentMid:has(+ .mStudentEnd:hover) {
+        position: absolute;
+        visibility: hidden;
+    }
+    .bio {
+        font-size: 2vw;
+        text-align: left;
+        display: none;
+        height: 100%;
+        padding: 5%;
+        margin-top: 0vw;
+        margin-left: 5%;
+        padding-top: 0%;
+        transition: opacity .5s;
+        background-color: rgba(61, 36, 5, 0.841);
+        border-radius: 15px;
+    }
     .navbar{
         display: none;
     }
