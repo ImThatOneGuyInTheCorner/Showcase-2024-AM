@@ -156,10 +156,7 @@ footer{
     flex-direction: column;
     }
 
-    .navbar{
-        display: none;
-    }
-    .m-navbar {
+    .m-navbar, #menuToggle {
         display: block;
     }
     footer{

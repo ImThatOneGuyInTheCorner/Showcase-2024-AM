@@ -165,6 +165,8 @@ footer{
     height: 8vw;
 }
 @media screen and (min-width: 600px){
+
+}
 .student, .studentEnd{
     position: relative;
     font-size: 1.5vw;
@@ -213,8 +215,11 @@ footer{
         display: flex;
     }
 }
-}
+
 @media screen and (max-width: 600px){
+    .m-navbar, #menuToggle {
+        display: block;
+    }
     .portrait-container {
         order: 2;
     }

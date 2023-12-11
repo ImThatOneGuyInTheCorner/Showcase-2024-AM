@@ -291,7 +291,7 @@ footer{
     .navbar{
         display: none;
     }
-    .m-navbar {
+    .m-navbar, #menuToggle {
         display: block;
     }
     footer{
