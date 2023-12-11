@@ -90,9 +90,9 @@ body{
     color: white;
 }
 .content{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+
 }
 .app{
     display: flex;
@@ -105,7 +105,8 @@ body{
     border-width: .3vw;
     padding: 2vw;
     margin: 3%;
-    width: fit-content;
+    width: 20vw;
+
 }
 
 

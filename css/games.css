@@ -101,7 +101,7 @@ h2{
     border-style: solid;
     border-radius: 3vw;
     border-width: .3vw;
-    height: 30vw;
+    height: fit-content;
     width: 80%;
     margin-top: 10vw;
     align-items: center;
@@ -129,6 +129,9 @@ h2{
     padding: 2vw;
     margin: 3vw;
     transition: transform 0.3s ease-in-out, background-color 0.5s;
+}
+.pop_img{
+    max-width:30vw;
 }
 .game_box:hover{
     transform: translateY(-20px);
