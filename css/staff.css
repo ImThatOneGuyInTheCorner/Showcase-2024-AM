@@ -231,7 +231,7 @@ footer{
         margin: 0%;
         width: 100%;
     }
-    .student, .studentEnd{
+    .mStudent {
         position: relative;
         font-size: 1.5vw;
         display: flex;
@@ -254,6 +254,10 @@ footer{
         background-position: Left;
         transition: transform 0.3s ease-in-out, border-color 0.5s, width 0.5s, margin-right 0.5s, justify-self 0.5s;
         overflow: hidden;
+    }
+    .mStudent:hover {
+        width: 94%;
+        grid-column: span 3;
     }
 
     .navbar{
