@@ -245,12 +245,13 @@ footer{
         height: 20vw;
         color: white;
         background-image: url(../img/StoneTexture.jpg);
+        background-size: 75%;
         background-color: #C29B64;
         background-repeat: repeat;
         padding: 8px;
         padding-top: 0px;
         border-radius: 7px;
-        border-width: 5px;
+        border-width: 2px;
         border-color: #F8D042;
         border-style: solid;
         padding-top: 3%;
