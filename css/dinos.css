@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inika');
 
-*{
-    box-sizing: border-box;
+.navbar, .dropbtn {
+    font-family: 'Inika', serif;
 }
 
 :root {
@@ -92,6 +92,8 @@ body {
 }
 .dropdown:hover .dropdown-content {display: block;}
 .dropdown:hover .dropbtn, .dropdown-content a:hover {background-color: #a58556;}
+
+
 .head{
     font-size: xx-large;
     margin-top: 8%;
