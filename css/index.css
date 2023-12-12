@@ -188,7 +188,6 @@ h1 {
     align-items: center;
 }
 footer{
-    margin: 0%;
     display: flex;
     align-items: flex-end;
     justify-content: center;
@@ -196,6 +195,7 @@ footer{
     background-color: #5C443A;
     height: 8vw;
     font-size: .75vw;
+    margin-top: 200%;
 }
 .pricing {
     font-family: 'Jomolhari', serif;
@@ -256,6 +256,9 @@ footer{
     font-family: 'Joti One', serif;
     color: #fff;
     font-size: 3vw;
+}
+.hide{
+    opacity: 0%;
 }
 
 @media screen and (max-width: 600px){
