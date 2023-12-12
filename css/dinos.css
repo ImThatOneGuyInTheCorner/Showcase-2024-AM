@@ -453,6 +453,32 @@ footer{
         width: 85%;
         height: 20vw;
     }
+    .popup_content{
+        a{
+            color: white;
+        }
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 20%;
+    }
+    .popup_item{
+        background-color: #707070;
+        color: #FBFFE2;
+        border-color: #1c1e29;
+        border-style: solid;
+        border-width: .5vw;
+        border-radius: 3vw;
+        height: 12vw;
+        width: 25vw;
+        font-family: 'Inika', serif;
+        font-size: 4vw;
+        text-decoration: none;
+        width: 30vw;
+        margin: 4%;
+        height: 4%;
+        padding: 2%;
+    }
 }
 
 
