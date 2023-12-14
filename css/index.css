@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Inika&family=Jomolhari&family=Joti+One&family=Kaisei+Tokumin:wght@500&display=swap');
 
+
+.m-button > a {
+    text-decoration: none;
+    color: white;
+}
+
 .m-navbar, #menuToggle {
     display: none;
 }
