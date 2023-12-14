@@ -1,8 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Inika');
 
-.m-button > a {
+.m-button {
     text-decoration: none;
     color: white;
+    text-align: center;
+    text-justify: center;
+    padding-top: 4%;
+}
+#store, #dining {
+    padding-top: 0%;
+    cursor: pointer;
 }
 
 .m-navbar, #menuToggle {
