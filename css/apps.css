@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Inika');
 
+.m-button > a {
+    text-decoration: none;
+    color: white;
+}
+
 .m-navbar, #menuToggle {
     display: none;
 }
@@ -144,7 +149,7 @@ footer{
     height: 8vw;
 }
 @media screen and (max-width: 600px){
-
+    
     .description{
         margin-top: 25%;
     }
