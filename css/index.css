@@ -50,6 +50,7 @@ body {
     flex-direction: column;
     border: 0px;
     margin: 0px;
+    background-color: #5C443A;
 }
 .navbar {
     height: 8vh;
@@ -208,7 +209,6 @@ footer{
     background-color: #5C443A;
     height: 8vw;
     font-size: .75vw;
-    margin-top: 20%;
 }
 .pricing {
     font-family: 'Jomolhari', serif;
